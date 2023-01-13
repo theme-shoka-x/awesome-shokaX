@@ -8,8 +8,9 @@
 ## 插件仓库
 插件是shokaX的重要组成部分之一,下面是官方插件:
 - hexo-shokax-lantern: 为你的博客添加一个新年灯笼 (原作者Lavender)
+- hexo-shokax-posts-statistics: 添加一个文章统计界面 (原作者Lavender)
 - hexo-shokax-qweather: 在博客右上角添加和风天气预报
-- hexo-shokax-adsense(WIP): 在评论区上方添加adsense广告
+- hexo-shokax-adsense: 在评论区上方添加adsense广告
 
 社区插件:
 - 目前还没有

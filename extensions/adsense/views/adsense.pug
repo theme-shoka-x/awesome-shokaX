@@ -1,0 +1,16 @@
+script(type="text/javascript").
+    function downloadJSAtOnload() {
+        const element = document.createElement("script");
+        element.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
+        document.body.appendChild(element);
+    }
+    setTimeout(downloadJSAtOnload,3000)
+ins(class="adsbygoogle"
+    style="display:block"
+    data-ad-client=theme.adsense.client
+    data-ad-slot=theme.adsense.slot
+    data-ad-format="auto"
+    data-full-width-responsive="true"
+)
+script.
+    (adsbygoogle = window.adsbygoogle || []).push({});
