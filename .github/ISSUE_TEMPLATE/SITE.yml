@@ -1,0 +1,37 @@
+name: 在线预览收录
+description: 申请收录在线预览网站选此
+labels: ["在线预览"]
+assignees:
+  - zkz098
+body:
+  - type: "markdown"
+    attributes:
+      value: |
+        标题应为网站名称
+  - type: "textarea"
+    id: describe
+    attributes:
+      label: 网站内容描述
+      description: |
+        此处请简要描述网站内容,以便进行分类
+    validations:
+      required: true
+  - type: "input"
+    id: describe
+    attributes:
+      label: 网站域名
+      description: |
+        网站域名,只能填写一个
+    validations:
+      required: true
+  - type: checkboxes
+    id: checkagain
+    attributes:
+      label: 注意事项
+      description: |
+        1. 此网站已开启HTTPS且可正常访问
+        2. 此网站使用了最新版的shokaX(以Npm版本为准)
+        3. 此网站符合要求(具体可参考我的友链收录要求)
+      options:
+        - label: 我已确认以上事项
+          required: true

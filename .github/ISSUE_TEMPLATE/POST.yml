@@ -1,0 +1,37 @@
+name: 收录教程
+description: 申请收录教程选此
+labels: ["社区教程"]
+assignees:
+  - zkz098
+body:
+  - type: "markdown"
+    attributes:
+      value: |
+        标题应为教程名称
+  - type: "input"
+    id: describe
+    attributes:
+      label: 教程名称
+      description: |
+        教程的标题
+    validations:
+      required: true
+  - type: "textarea"
+    id: describe
+    attributes:
+      label: 教程内容
+      description: |
+        详细描述教程内容
+    validations:
+      required: true
+  - type: checkboxes
+    id: checkagain
+    attributes:
+      label: 注意事项
+      description: |
+        1. 此教程的网站为`https`协议
+        2. 此教程不涉及版权问题
+        3. 此教程以最新版hexo及shokaX为基础
+      options:
+        - label: 我已确认以上事项
+          required: true

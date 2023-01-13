@@ -1,0 +1,36 @@
+name: 收录插件
+description: 申请收录插件选此
+labels: ["插件"]
+assignees:
+  - zkz098
+body:
+  - type: "markdown"
+    attributes:
+      value: |
+        标题应为插件名称
+  - type: "input"
+    id: describe
+    attributes:
+      label: 插件名称
+      description: |
+        插件的具体名称,必须以`hexo或@scope/hexo`开头,应为`hexo-shokax-`开头
+    validations:
+      required: true
+  - type: "textarea"
+    id: describe
+    attributes:
+      label: 插件功能
+      description: |
+        详细描述插件功能
+    validations:
+      required: true
+  - type: checkboxes
+    id: checkagain
+    attributes:
+      label: 注意事项
+      description: |
+        1. 此插件功能未与现存插件重复
+        2. 此插件应可以在最新版hexo及shokaX环境中正常运行
+      options:
+        - label: 我已确认以上事项
+          required: true
