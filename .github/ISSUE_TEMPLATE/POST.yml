@@ -9,7 +9,7 @@ body:
       value: |
         标题应为教程名称
   - type: "input"
-    id: describe
+    id: title
     attributes:
       label: 教程名称
       description: |

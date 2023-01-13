@@ -9,7 +9,7 @@ body:
       value: |
         标题应为插件名称
   - type: "input"
-    id: describe
+    id: name
     attributes:
       label: 插件名称
       description: |

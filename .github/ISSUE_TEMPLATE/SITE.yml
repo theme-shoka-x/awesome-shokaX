@@ -9,7 +9,7 @@ body:
       value: |
         标题应为网站名称
   - type: "textarea"
-    id: describe
+    id: info
     attributes:
       label: 网站内容描述
       description: |
