@@ -15,7 +15,7 @@
 社区插件:
 - 目前还没有
 
-如果需要投稿插件请发起issues,插件编写教程正在准备 \
+如果需要投稿插件请fork本仓库后发起PR,[插件编写教程](https://www.kaitaku.xyz/webbuild/shokaXplugin/) \
 使用插件的方法: 
 1. 将extensions中的对应插件文件夹下载下来
 2. 在hexo环境根目录创建`scripts`文件夹,把js文件放进去
