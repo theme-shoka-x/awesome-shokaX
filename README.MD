@@ -24,7 +24,7 @@
 通过npm发布的插件直接使用包管理器安装即可
 
 ## 社区教程
-- 目前还没有
+- [ShokaX插件系统文档](https://www.kaitaku.xyz/webbuild/shokaXplugin/)
 
 如果需要投稿教程请发起issues
 
