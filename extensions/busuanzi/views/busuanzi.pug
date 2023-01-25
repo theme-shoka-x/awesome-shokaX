@@ -1,0 +1,20 @@
+script(src='https://unpkg.com/busuanzi@2.3.0/bsz.pure.mini.js')
+div(id="busuanzi-wrap")
+    if !theme.busuanzi || theme.busuanzi.pv.enable
+        span(class='ic i-eye')
+        span(id="busuanzi_container_site_pv")
+            != (theme.busuanzi && theme.busuanzi.pv.title) || '本站访问量'
+            != ' '
+            span(id="busuanzi_value_site_pv")
+            != ' '
+            != (theme.busuanzi && theme.busuanzi.pv.quantifier) || '次'
+    if !theme.busuanzi || (theme.busuanzi.pv.enable && theme.busuanzi.uv.enable)
+        != ' | '
+    if !theme.busuanzi || theme.busuanzi.uv.enable
+        span(class='ic i-user')
+        span(id="busuanzi_container_site_uv")
+            != (theme.busuanzi && theme.busuanzi.uv.title) || '本站访客量'
+            != ' '
+            span(id="busuanzi_value_site_uv")
+            != ' '
+            != (theme.busuanzi && theme.busuanzi.uv.quantifier) || '次'
