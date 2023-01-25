@@ -11,6 +11,7 @@
 - hexo-shokax-posts-statistics: 添加一个文章统计界面 (原作者Lavender)
 - hexo-shokax-qweather: 在博客右上角添加和风天气预报
 - hexo-shokax-adsense: 在评论区上方添加adsense广告
+- hexo-shokax-create-time: 在页脚插入站点存活时间
 
 社区插件:
 - [hexo-shokax-busuanzi](https://github.com/zkz098/awesome-shokaX/blob/main/extensions/busuanzi/README.md): 在页脚插入不蒜子以统计网站访问量和访客量。
