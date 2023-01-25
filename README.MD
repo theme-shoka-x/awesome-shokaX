@@ -13,7 +13,7 @@
 - hexo-shokax-adsense: 在评论区上方添加adsense广告
 
 社区插件:
-- 目前还没有
+- [hexo-shokax-busuanzi](https://github.com/zkz098/awesome-shokaX/blob/main/extensions/busuanzi/README.md): 在页脚插入不蒜子以统计网站访问量和访客量。
 
 如果需要投稿插件请fork本仓库后发起PR,[插件编写教程](https://www.kaitaku.xyz/webbuild/shokaXplugin/) \
 使用插件的方法: 
