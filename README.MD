@@ -3,7 +3,11 @@
 
 ## 在线预览
 这里是使用shokaX主题且符合预览条件的网站,如需申请请新建一个issues:
-- [zkz098](https://www.kaitaku.xyz/)
+
+| 站点                       | 状态                                                           |
+|:-------------------------|:-------------------------------------------------------------|
+| https://www.kaitaku.xyz/ | ![site-ok](https://img.shields.io/badge/site-ok-brightgreen) |
+| https://d-sketon.top/    | ![site-ok](https://img.shields.io/badge/site-ok-brightgreen) |
 
 ## 插件仓库
 插件是shokaX的重要组成部分之一,下面是官方插件:
