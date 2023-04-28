@@ -8,6 +8,7 @@
 |:-------------------------|:-------------------------------------------------------------|
 | https://www.kaitaku.xyz/ | ![site-ok](https://img.shields.io/badge/site-ok-brightgreen) |
 | https://d-sketon.top/    | ![site-ok](https://img.shields.io/badge/site-ok-brightgreen) |
+| https://misakamikoto.eu.org/ | ![site-ok](https://img.shields.io/badge/site-ok-brightgreen) |
 
 ## 插件仓库
 插件是shokaX的重要组成部分之一,下面是官方插件:
