@@ -1,0 +1,39 @@
+if is_post()
+    script.
+        let addData = '<div class="note warning">'
+        add()
+        function add() {
+            const posts = document.getElementsByClassName('post');  
+            if (posts.length === 0) { return; }
+            addNetErrWaring()
+            addLostWaring()
+            
+            addData += "</div>"
+            let adom = document.createElement("div");
+            adom.className = 'md'
+            adom.innerHTML = addData
+            posts[0].insertBefore(adom, posts[0].children[0]);              
+        }
+
+        function addNetErrWaring() {
+            addData = addData + '<p style="color: #e9546b">因网络问题只有具有魔法资质的人才能看见完整的全部内容哦~ 勇敢的你快成为魔法少女吧！</p>'
+        }
+
+        function addLostWaring() {
+            const times = document.getElementsByTagName('time');
+            if (times.length === 0) { return; }
+            
+            const pubTime = new Date(times[0].dateTime);  /* 文章发布时间戳 */
+            const now = Date.now()  /* 当前时间戳 */
+            const interval = parseInt(now - pubTime)
+            /* 发布时间超过指定时间（毫秒） */
+            if (interval > 3600*24*30*1000){
+                const days = parseInt(interval / 86400000)
+                addData = addData + 
+                `<p>
+                <div class="h6">文章时效性提示</div>
+                <p>这是一篇发布于 ` + days + ` 天前的文章，部分信息可能已发生改变，请注意甄别。</p>
+                </p>`
+            }
+        }
+        
