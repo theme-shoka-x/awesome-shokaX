@@ -8,7 +8,7 @@
 |:-------------------------|:-------------------------------------------------------------|
 | https://www.kaitaku.xyz | ![site-ok](https://img.shields.io/badge/site-ok-brightgreen) |
 | https://d-sketon.top    | ![site-ok](https://img.shields.io/badge/site-ok-brightgreen) |
-| ~~https://sakurame.eu.org~~ | ![site-error](https://img.shields.io/badge/site-SSL%20Error-red) |
+| https://sakurame.eu.org | ![site-ok](https://img.shields.io/badge/site-ok-brightgreen) |
 | https://www.blog.foryouos.cn | ![site-ok](https://img.shields.io/badge/site-ok-brightgreen) |
 
 ## 插件仓库
